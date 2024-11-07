@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Criação de Perfil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="faq.html.html">FAQ</a></li>
+                <li><a href="inicio.html.html">Inicio</a></li>
+            </ul>
+        </nav>
+        <h1>Crie seu perfil</h1>
+    </header>
+    <div class="container">
+        <form>
+            <div class="profile-pic">
+                <label for="profile-pic">Foto de perfil:</label>
+                <input type="file" id="profile-pic" name="profile-pic">
+            </div>
+            <div class="username">
+                <label for="username">Nome de usuário:</label>
+                <input type="text" id="username" name="username">
+            </div>
+            <div class="name">
+                <label for="name">Senha:</label>
+                <input type="password" id="name" name="name">
+            </div>
+            <div class="bio">
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio"></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Criar Perfil">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
